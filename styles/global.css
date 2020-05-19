@@ -1,0 +1,127 @@
+* {
+   // background: #dcdbe1; /* Цвет фона */
+    color: #2a5d68;
+    margin: 0;
+    padding: 0;/*Поля*/
+    position: page;
+    width: auto;
+    font-size: 20px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.p {
+    padding: 10px;
+}
+
+.left {
+    position: absolute; left: 0; top: 0; width: 10%;
+    height: 100%;
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+
+}
+
+
+.right {
+    position: absolute; right: 0; top: 0; width: 90%;
+    height: 100%;
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+}
+
+.right_inner_first{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    background-color:#7dbbb9 ;
+    position: relative;
+    height: 3%;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    vertical-align: center;
+    display: flex;
+    min-height: 30px;
+}
+
+.right_inner_second{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 3%;
+    background-color: #c5d7d9;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 30px;
+}
+
+.right_inner_bottom{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 94%;
+    background-color: #D8D9DD;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.left_inner_first{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 3%;
+    background-color: #d8d3d0;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 30px;
+
+}
+
+.left_inner_second{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 3%;
+    background-color: #D8D9DD;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 30px;
+
+}
+
+.left_inner_menu{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 91%;
+    background-color: #d8d3d0;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: 30px;
+
+}
+
+
+.left_inner_bottom{
+    border: 2px solid #7dbbb9; /* Параметры рамки */
+    position: relative;
+    height: 3%;
+    background-color: #D8D9DD;
+    margin: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+
