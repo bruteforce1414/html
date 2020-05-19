@@ -1,9 +1,12 @@
+@import "global.css";
+
+
 .table {
     width: 900px;
-    background: #7dbbb9;
-    border: 2px solid #d8d3d0;
+    background: var(--background-table);
+    border: 2px solid var(--border-color);
     margin: 30px auto;
-    color:#7dbbb9 ;
+    color:var(--font-table-color) ;
 }
 
 .table-row {
@@ -16,10 +19,14 @@
     height: 300px;
     vertical-align: top;
     text-align: right;
+    color:var(--font-table-color) ;
+
 }
 
 .item {
-    border-bottom: 2px solid #d8d3d0;
+    border-bottom: 2px solid var(--border-color);
+    color:var(--font-table-color) ;
+
 }
 
 .table-cell:first-child div {
@@ -31,8 +38,8 @@
 }
 
 .table-cell:nth-child(2) {
-    border-left: 2px solid #d8d3d0;
-    border-right: 2px solid #d8d3d0;
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
 }
 
 .table-cell:nth-child(3) {
