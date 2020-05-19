@@ -17,6 +17,7 @@
 
 * {
      /* Цвет фона */
+
     color:var(--font-color);
 
     margin: 0;
@@ -36,7 +37,7 @@
 
 .left {
     color:var(--font-color);
-    position: absolute; left: 0; top: 0; width: 10%;
+    position: absolute; left: 0; top: 0; width: 15%;
     height: 100%;
     border: 2px solid var(--border-color); /* Параметры рамки */
 
@@ -45,7 +46,7 @@
 
 .right {
     color:var(--font-color);
-    position: absolute; right: 0; top: 0; width: 90%;
+    position: absolute; right: 0; top: 0; width: 85%;
     height: 100%;
     border: 2px solid var(--border-color); /* Параметры рамки */
 }
@@ -148,7 +149,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    min-height: 30px;
+
 
 }
 
