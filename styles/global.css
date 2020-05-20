@@ -141,7 +141,6 @@
 .left_inner_bottom{
     color:var(--font-color);
     border: 2px solid var(--border-color); /* Параметры рамки */
-    position: relative;
     height: 3%;
     background-color: var(--background-color-left-bottom);
     margin: fill;
@@ -149,7 +148,9 @@
     right: 0;
     top: 0;
     bottom: 0;
-
+    overflow: hidden;
+    position: sticky;
+    min-height: 30px;
 
 }
 

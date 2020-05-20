@@ -2,11 +2,12 @@
 
 
 .table {
-    width: auto;
+    width: 80%;
     background: var(--background-table);
     border: 2px solid var(--border-color);
     margin: 30px auto;
     color:var(--font-table-color) ;
+    height: 80%;
 }
 
 .table-row {
